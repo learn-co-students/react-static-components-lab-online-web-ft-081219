@@ -15,3 +15,19 @@ export class GraceHopperQuoteComponent extends Component {
 		);
 	}
 }
+
+export class EinsteinQuoteComponent extends Component {
+	render() {
+		return (
+			<div className="bar" id="hopper">
+				<i>
+					<p>
+						&quot;The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.&quot;
+					</p>
+				</i>
+				<br />
+				&#9;-Albert Einstein
+			</div>
+		);
+	}
+}
